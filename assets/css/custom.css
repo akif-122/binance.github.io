@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+body{
+	font-family: Poppins;
+}
+#header{
+	background: #194089 ;
+	/*height: 300px;*/
+	position: relative;
+	padding-bottom: 50px;
+}
+.fixed-top{
+	background: #194089;
+	box-shadow: 0 10px 30px -15px #194089;
+}
+#header ul li a{
+	font-size: 13px;
+	color: #fff;
+	padding: 6px 15px;
+	font-weight: 500;
+}
+#header ul li a:hover{
+	color: lightgrey;
+}
+.btn-gradient-purple {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    -moz-transition: .5s;
+    transition: .5s;
+    background-image: -webkit-linear-gradient(
+50deg,#BF68E6 20%,#9E48CD 51%,#BF68E6 90%);
+    background-image: -moz-linear-gradient(50deg,#BF68E6 20%,#9E48CD 51%,#BF68E6 90%);
+    background-image: -o-linear-gradient(50deg,#BF68E6 20%,#9E48CD 51%,#BF68E6 90%);
+    background-image: linear-gradient(
+40deg,#BF68E6 20%,#9E48CD 51%,#BF68E6 90%);
+    background-position: left center;
+    -webkit-background-size: 200% auto;
+    background-size: 200% auto;
+    border: 0;
+    color: #fff;
+    padding: 6px 20px;
+}
+.btn-gradient-purple:hover, .btn-gradient-purple:active {
+    background-position: right center;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-gradient-purple.btn-glow {
+    -webkit-box-shadow: 0 0 12px 0 #9e48cd;
+    box-shadow: 0 0 12px 0 #9e48cd;
+}
+
+/*BANNER SECTION START*/
+.banner{
+	border-radius: 10px;
+	margin-top: 30px;
+	overflow: hidden;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*BANNER SECTION END*/
+
+
+
+
+/*
+===========================================
+	CONTENT SECTION START
+===========================================
+*/
+.main-section{
+	margin: 50px 0;
+}
+.main-heading h1{
+	font-size: 35px;
+	color: #222;
+	font-weight: 600;
+}
+
+.post-section{
+	margin: 50px 0;
+}
+.post-section .post-heading{
+	display: flex;
+	align-items: center;
+}
+.post-section .post-heading img{
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.post-section .post-heading a{
+	color: #f0b90b;
+}
+.post-section .post-heading a h2{
+	font-size: 22px;
+	margin: 0;
+	font-weight: 400;
+
+}
+.post-section .post-content{
+	margin-left: 50px;
+}
+.post-section .post-content .post-text a{
+	display: block;
+	margin: 15px 0;
+	font-size: 14px;
+	color: #222;
+}
+.post-section .post-content .post-text a:hover{
+	color: #f0b90b;
+}
+/*
+===========================================
+	CONTENT SECTION END
+===========================================
+*/
+
+/*
+===========================================
+	CATEGORY SECTION START
+===========================================
+*/
+
+
+
+.category-wrap{
+	padding-bottom: 24px;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.category-wrap .cate-circle{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	border: 1px solid lightgrey; 
+	padding: 2px;
+	margin-right: 10px;
+}
+.category-wrap .cate-line{
+	width: 0px;
+	height: calc(100% - 14px);
+	border-left: 1px solid lightgrey;
+	/*background: red;*/
+	position: absolute;
+	top: 18px;
+	left: 7px;
+}
+.category-wrap .cate-circle .cate-inner-circle{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+.category-wrap .cate-circle .cate-inner-circle.active{
+	background: #f0b90b;
+
+}
+.category-wrap a{
+	font-size: 14px;
+	font-style: 12px;
+	color: #222;
+}
+.category-wrap a:hover{
+	color: #f0b90b;
+}
+
+
+/*
+===========================================
+	CATEGORY SECTION END
+===========================================
+*/
+
+
+/*
+===========================================
+	FOOTER SECTION START 
+===========================================
+*/
+.footer-section{
+	padding: 50px 0;
+	color: #fff;
+	background: url('../img/footer-image.png');
+	background-position: center;
+	background-size: cover;
+}
+.footer-content{
+	margin-top: 100px;
+}
+.footer-section p{
+	font-size: 15px;
+	margin: 20px 0;
+}
+.footer-section ul li{
+
+	margin: 5px 0;	
+}
+.footer-section ul li  a{
+	font-size: 14px;
+	color: #fff;
+}
+.copyright p a:hover,
+.footer-section ul li  a:hover{
+	color: #f0b90b;
+}
+.copyright{
+	margin-right: 40px;
+	text-align: center;
+}
+.copyright p{
+	font-size: 12px;
+}
+.copyright p a{
+	color: #fff;
+}
+
+/*
+===========================================
+	FOOTER SECTION END 
+===========================================
+*/
+
+
+
+
+
+@media screen and (max-width: 575px){
+/*
+===========================================
+	CONTENT SECTION START
+===========================================
+*/
+.main-section{
+	margin: 40px 0;
+}
+.main-heading h1{
+	font-size: 30px;
+}
+
+.post-section .post-heading img{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.post-section .post-heading a h2{
+	font-size: 16px;
+	margin: 0;
+	font-weight: 400;
+
+}
+.post-section .post-content{
+	margin-left: 40px;
+}
+.post-section .post-content .post-text a{
+	display: block;
+	margin: 10px 0;
+	font-size: 11px;
+	color: #222;
+}
+.post-section .post-content .post-text a:hover{
+	color: #f0b90b;
+}
+/*
+===========================================
+	CONTENT SECTION END
+===========================================
+*/
+}
